@@ -1,0 +1,39 @@
+<style>
+        /* Acá ya solo puede ir código CSS */
+        /* Seleccontres de CSS: nos permiten seleccionar elementos */
+        /* Los estilos así definidos pueden ser utilizados solo en esta página */
+        /* sintaxis
+        selector
+        llave
+        propiedad: valor
+        
+        selector{
+        propiedad:valor
+        } */
+        /* si h1 y h2 tienen el mismo estilo puedo poner h1, h2{} */
+
+        h2{
+            color: aqua;
+            font-size:  32px;
+            font-family: sans-serif;
+        }
+
+        /* Otra opción es crear una clase */
+        .titulo{
+            color: beige;
+            font-size:  32px;
+            font-family: sans-serif;
+        }
+
+        .subtitulo{
+            color: blanchedalmond;
+            font-size:  32px;
+            font-family: sans-serif;
+        }
+
+        .subrayado{
+            /* es subrrayado color y grosor */
+            text-decoration: underline aqua 1px;
+        }
+
+    </style>

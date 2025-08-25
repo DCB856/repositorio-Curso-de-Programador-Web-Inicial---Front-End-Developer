@@ -3,11 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-     <h1> Hola mundo</h1>
+    <title>CSS</title>
+    <!-- cuando se carga la página se cargará el estilo -->
+    <link rel="estilo.css" href="./estilo.css">
+    <!-- eSCRIBIR UNA HOJA DE ESTILOS DE css EN EL html -->
+    <style>
+        /* Acá ya solo puede ir código CSS */
+        /* Seleccontres de CSS: nos permiten seleccionar elementos */
+        /* Los estilos así definidos pueden ser utilizados solo en esta página */
+        /* sintaxis
+        selector
+        llave
+        propiedad: valor
+        
+        selector{
+        propiedad:valor
+        } */
+        /* si h1 y h2 tienen el mismo estilo puedo poner h1, h2{} */
 
-     <script src="./script.js"></script>
+        h2{
+            color: aqua;
+            font-size:  32px;
+            font-family: sans-serif;
+        }
+
+        /* Otra opción es crear una clase */
+        .titulo{
+            color: beige;
+            font-size:  32px;
+            font-family: sans-serif;
+        }
+
+        .subtitulo{
+            color: blanchedalmond;
+            font-size:  32px;
+            font-family: sans-serif;
+        }
+
+        .subrayado{
+            /* es subrrayado color y grosor */
+            text-decoration: underline aqua 1px;
+        }
+
+    </style>
+</head>
+<body style="background-color: black;">
+    <a href="./contacto.html"> Ir a contacto</a>
+    <!-- CCS cascade style sheets, hoja de estilo en cascada -->
+    <!-- Nos permite definir el aspectovisual de neustra página -->
+    <!-- Par un desarrollador frontend es muy importante su nievel de estilos -->
+
+    <!-- estilo en lineas es porque estan declarados en el mismo elemento -->
+     <!--<h1 style="color:red;">  -->
+    <h1 style="color:red; font-size: 32px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        Título h1
+    </h1> 
+
+    <h1 class="titulo"> Titulo clase</h1>
+    <h1 class="titulo subrayado"> Titulo clase y subrayado</h1>
+    <h2> Titulo h2 </h2>
+    <h3 class="subtitulo"> Subtitulo Titulo </h3>
 </body>
 </html>

@@ -1,2 +1,3 @@
-/*javascript es un lenguaje de programación interpretado por V8Engine*/
-console.log('HOLA MUNDO')
+let dato_solicitado = prompt('ingrese nombre')
+
+console.log('Dato ingresado: ' + dato_solicitado )
